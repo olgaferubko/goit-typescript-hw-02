@@ -11,7 +11,7 @@ import ImageModal from "./components/ImageModal/ImageModal";
 import { Item } from "./types/Item";
 
 function App() {
-  const [data, setData] = useState<Array<object>>([]);
+  const [data, setData] = useState<Item[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [error, setError] = useState<boolean>(false);
   const [page, setPage] = useState<number>(1);
